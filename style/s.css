@@ -9,7 +9,7 @@
 html {
 	background: #000 url('img/bg.jpg') repeat-x 0 5px;
 	color: #ccc;
-	font: 1em serif
+	font: 1em 'georgia', serif
 }
 
 a {
@@ -31,6 +31,7 @@ p, li {
 	background: rgba(0,0,0,.7);
 	border-bottom: 2px solid #ccc;
 	box-shadow: #000 0 0 15px;
+	-moz-box-shadow: #000 0 0 15px;
 	padding: 1em
 }
 	#h h1 strong {
@@ -44,6 +45,7 @@ p, li {
 	background: #000;
 	background: rgba(0,0,0,.8);
 	box-shadow: #54a7f0 0 10px 30px;
+	-moz-box-shadow: #54a7f0 0 10px 30px;
 	color: #bbb;
 	font-size: 1.3em;
 	margin: 0 7%;
